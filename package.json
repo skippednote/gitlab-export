@@ -1,0 +1,19 @@
+{
+  "name": "gitlab",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@fast-csv/format": "^4.3.5",
+    "@humanwhocodes/env": "^2.2.0",
+    "undici": "^4.7.1"
+  },
+  "devDependencies": {
+    "@types/node": "^16.10.3",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.4.3"
+  },
+  "scripts": {
+    "postinstall": "mkdir -p data"
+  }
+}
